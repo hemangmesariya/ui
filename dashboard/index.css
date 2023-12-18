@@ -1,0 +1,55 @@
+.status{
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.status.is_green,
+.chart-label.is_green{
+    background-color: green;
+    color: #fff;
+}
+
+.status.is_orange,.chart-label.is_orange{
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.status.is_red,.chart-label.is_red{
+    background-color: #dc3545;color: #fff;
+}
+
+.action-block{
+    display: flex;
+    gap: 20px;
+}
+
+.view{color: blue;
+    font-size: 20px;
+}
+.download{
+    color: #dc3545;
+    font-size: 20px;
+}
+
+.chart-block{height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 1px solid #ddd;
+}
+
+.chart-label-block{
+    margin: 10px;
+}
+.chart-label{
+    padding: 10px;
+    text-align: center;
+}
+
+.table{
+    border: 1px solid #ddd;
+}
+.table-responsive{
+    max-height: 617px;
+}
